@@ -1,0 +1,42 @@
+# Project ?: Kuriboh Clicker
+
+* Author: Cody Nelson
+* Class: CS121 Section ?
+* Semester: Fall 2024
+
+
+## Overview
+This project is a simple clicker game, using the Yu-Gi-Oh Monster Kuriboh.
+Players earn Kuribohs by clicking on the big center kuriboh, can unlock
+upgrades to help Kuriboh production with Pot of Greed, Sinister Serpent, and
+Sangan, along with levels/cosmetic upgrades in the many different kuribohs
+
+
+## Compiling and Using
+To compile, execute the following command in the main project directory:
+$ javac KuribohClicker.java
+
+Run the compiled class with the command:
+$ java KuribohClicker
+
+
+## Discussion
+The first problem I ran into was using bufferedimages but I've clearly improved
+since Traffic Animation because it wasn't too hard. I had some issues making the 
+timers works becuase I didn't know if you could have multiple timers, or how they
+should work together, and how to balance the Kuriboh Economy. I had to teach myself
+Grid Bag but that wasn't hard, just long. I started with making the Kuriboh Clicker 
+in the central panel work, then made the score update, and continued through all functionality
+then once that was completed I started adding the animation and levels of each different
+cosemetic Kuribohs. The Errors I got were mostly just me incorrectly adding Mouse Listeners
+and Mouse Adapters or Images breaking because I gave them the wrong file name to work with,
+but both of these were easy to fix with documentation and just putting in the correct file name.
+If I could add more to this, I would add the 3 upgrades I started adding then didn't have the time
+or motivation to add, and would make this game more scaleable as I started doing then also gave
+up on. 
+
+
+## Sources used
+The only sources I used were the Oracle Documantation and ChatGPT. No stackoverflow, no other forms.
+
+
